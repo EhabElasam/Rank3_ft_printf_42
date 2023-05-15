@@ -66,8 +66,6 @@ void ft_format(char c, int *len, va_list args)
         ft_putnbr(va_arg(args, int), len);
     if (c == 'x')
         ft_puthex(va_arg(args, unsigned int), c, len);
-    if (c == '%')
-        *len += write (1, "%", 1);
 }
 
 int ft_printf(const char *str, ...)
@@ -96,7 +94,7 @@ int ft_printf(const char *str, ...)
 
 }
 
-int main ()
+/* int main ()
 {
 
 printf("%d\n", printf("%s", (char *)NULL));
@@ -109,4 +107,4 @@ printf("%d\n", printf("%x", 14324));
 printf("%d\n", ft_printf("%x", 14324));
 
 return (0);
-}
+} */
