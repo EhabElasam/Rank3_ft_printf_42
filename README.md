@@ -16,11 +16,11 @@ This implementation serves as practical exercise and a solution approach for one
 
 To use `ft_printf` for your exam preparation and beyond, please follow these steps:
 
-1. Clone this repository to your local machine:
-git clone https://github.com/EhabElasam/Rank3_ft_printf_42.git
 
-css
-Copy code
+Clone this repository to your local machine:
+        
+    git clone https://github.com/EhabElasam/Rank3_ft_printf_42.git
+
 
 ## Usage
 
